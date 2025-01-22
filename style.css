@@ -1,7 +1,88 @@
+/* -------------------------------------------------- */
+/*                   COLOR GUIDE                      */
+/* -------------------------------------------------- */
+/* Colors picked from logo (super saturated):         */
+/* (used for reference only, for now)                 */
+/* #0100D4 - blue                                     */
+/* #FF213F - red                                      */
+/* #F3B700 - yellow                                   */
+/* -------------------------------------------------- */
+/* Page colors:                                       */
+/* #FEFDFB - off white, general bg                    */
+/* #03031A - dark blue, text color                    */
+/* Accent colors:                                     */
+/* #76A4F3 - pale blue, panel bg                      */
+/* #FF5F57 - pale red, navbar and footer bg           */
+/* #FAE68C - pale yellow, panel bg                    */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/*                 GENERAL STYLING                    */
+/* -------------------------------------------------- */
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fefdfb;
+    color: #03031a;
 }
 
 h1, h2, h3 {
     font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* ------------------    HEADER     ----------------- */
+.header .content {
+    text-align: center;
+}
+.header h2 {
+    margin: 0 auto 0 auto;
+    padding-bottom: 15px;
+}
+
+
+/* ------------------    NAVBAR     ----------------- */
+.navbar {
+    padding: 20px 0;
+    background-color: #FF5F57;
+}
+.navbar .content {
+    text-align: center;
+}
+
+
+/* ------------------      MAIN      ----------------- */
+.main .content {
+    width: 1000px;
+    padding: 30px 0;
+}
+
+.main h1 {
+    margin-top: 0;
+}
+
+.main .block_blue {
+    background-color: #76A4F3;
+}
+
+.main .block_yellow {
+    background-color: #FAE68C;
+}
+
+
+
+/* ------------------    FOOTER     ----------------- */
+.footer {
+    background-color: #FF5F57;
+    font-size: 13px;
+    padding: 10px 0;
+}
+.footer .content {
+    text-align: center;
 }
