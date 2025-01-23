@@ -75,6 +75,11 @@ h1, h2, h3 {
     background-color: #FAE68C;
 }
 
+.tech_overview {
+    background-color: #FEFDFB;
+    padding: 5px 0 10px 20px;
+}
+
 
 
 /* ------------------    FOOTER     ----------------- */
