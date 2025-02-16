@@ -89,10 +89,29 @@ h3 {
 
 
 /* ------------------    NAVBAR     ----------------- */
-.navbar {
-    padding: 20px 0;
-    text-align: center;
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar li a:link, .navbar li a:visited {
+    display: block;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #03031a;
+}
+
+.navbar li a:hover, .navbar li a:active {
+    background-color: #76A4F3;
+    color: #00004b;
+}
+
+.clear_float { clear: both; }
 
 
 /* ------------------      MAIN      ----------------- */
@@ -104,6 +123,10 @@ h3 {
     background-color: #FEFDFB;
     padding: 5px 0 10px 20px;
     font-family: 'Roboto Mono', monospace; 
+}
+
+.tech_overview li {
+    list-style-image: url(images/star-solid.svg);
 }
 
 .pic {
