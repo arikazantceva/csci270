@@ -61,6 +61,7 @@ h3 {
 .bg_red { background-color: #FF5F57; }
 .bg_blue { background-color: #76A4F3; }
 .bg_yellow { background-color: #FAE68C; }
+.bg_doodle { background-image: url(images/doodle_tile.png); }
 
 .grid-container {
     display: grid;
