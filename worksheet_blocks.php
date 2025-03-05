@@ -1,7 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Blocks Worksheet</title>
+<? 
+    // These have to be defined BEFORE the header file is required.
+    $page_title = 'Blocks | Worksheet';
+    // $extra_stylesheets[] = 'extra_styles1.css';
+?>
+
+<? require 'site_header.php'; ?>
   
 <style>
 
@@ -116,9 +119,7 @@
 
 </style>
 
-</head>
 
-<body>
 
   <div id="page_wrapper">
     <h3>Blocks Worksheet: Box Sizing and Inheritance</h3>
@@ -331,6 +332,6 @@
     <br><br><br>
 
   </div> <!-- end of wrapper -->
-</body>
 
-</html>
+
+<? require 'site_footer.php'; ?>

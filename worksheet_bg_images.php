@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
+<? 
+    // These have to be defined BEFORE the header file is required.
+    $page_title = 'Backgrounds | Worksheet';
+    // $extra_stylesheets[] = 'extra_styles1.css';
+?>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
-    <title>Background Images HW Template</title>
+<? require 'site_header.php'; ?>
 
     <style type="text/css">
-
       /***********************************************************************
       These styles are just to format the worksheet.
       You shouldn't need to modify these.
@@ -57,14 +54,9 @@
       #pure_css_gradient {
         background: linear-gradient(180deg, #91DDEC 0%, #FFFFFF 40%);
       }
-
-
     </style>
 
 
-  </head>
-
-  <body>
     <div id="worksheet_wrapper">
       Put all the styles for this worksheet into the internal style sheet in this page so you don't clutter up your main style sheet.
 
@@ -127,6 +119,5 @@
 
     </div>
 
-  </body>
 
-</html>
+<? require 'site_footer.php'; ?>
