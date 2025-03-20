@@ -35,6 +35,8 @@ body {
     box-sizing: border-box;
 }
 
+* { scrollbar-color: #76A4F3 #FEFDFB; }
+
 h1, h2, h3 { font-family: Montserrat, Helvetica, sans-serif; }
 
 h1 {
@@ -201,4 +203,69 @@ a.toplink:hover {
 a.toplink:active {
     color: #ea0739;
     text-decoration: underline wavy;
+}
+
+/* ------------------    CONTACT FORM     ----------------- */
+.form_wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.form_wrapper label {
+    display: block;
+    background-image: linear-gradient(90deg, rgba(255, 153, 10, 0.281), rgba(255,0,0,0), rgba(255,0,0,0));
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 10px 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+.form_wrapper textarea {
+    resize: none;
+}
+
+.form_wrapper input,
+.form_wrapper textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #F3B700;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 15px;
+}
+
+.form_wrapper input:focus,
+.form_wrapper textarea:focus {
+    border: 3px solid #d7001d;
+}
+
+.form_wrapper button {
+    background-color: #FF5F57;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    display: block;
+    width: 200px;
+    margin: auto;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.form_wrapper button:hover {
+    background-color: #e11f4f;
+}
+
+.contact_message {
+    min-height: 50vh;
+    text-align: center;
 }
