@@ -1,0 +1,64 @@
+* { box-sizing: border-box; }
+
+/* Column Block */
+.col {
+  float: left;
+  padding: 5px;
+}
+
+
+/* All Columns Stack on viewports UNDER 600px -- most phones. */
+
+@media only screen and (max-width: 575px) {
+  /*
+    Any styles put in here would only apply on phones.
+    Don't need anything here for the columns since blocks are width: 100%; by default.
+  */
+
+
+}
+
+/* Breakpoint #1 - viewports ABOVE 600px wide - most tablet devices and huge phones. */
+
+@media only screen and (min-width: 576px) {
+  .col.m1  {width: 8.33%;}
+  .col.m2  {width: 16.66%;}
+  .col.m3  {width: 25%;}
+  .col.m4  {width: 33.33%;}
+  .col.m5  {width: 41.66%;}
+  .col.m6  {width: 50%;}
+  .col.m7  {width: 58.33%;}
+  .col.m8  {width: 66.66%;}
+  .col.m9  {width: 75%;}
+  .col.m10 {width: 83.33%;}
+  .col.m11 {width: 91.66%;}
+  .col.m12 {width: 100%;}
+}
+
+
+/* Breakpoint #2 - devices above 768px wide -- desktop monitors, chromebooks */
+
+@media only screen and (min-width: 993px) {
+  .col.l1  {width: 8.33%;}
+  .col.l2  {width: 16.66%;}
+  .col.l3  {width: 25%;}
+  .col.l4  {width: 33.33%;}
+  .col.l5  {width: 41.66%;}
+  .col.l6  {width: 50%;}
+  .col.l7  {width: 58.33%;}
+  .col.l8  {width: 66.66%;}
+  .col.l9  {width: 75%;}
+  .col.l10 {width: 83.33%;}
+  .col.l11 {width: 91.66%;}
+  .col.l12 {width: 100%;}
+}
+
+
+/* Nifty trick to clear the float after any <div class="row"></div> */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+

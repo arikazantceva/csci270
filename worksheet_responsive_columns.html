@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Columns | Worksheet</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="responsive_columns.css" rel="stylesheet" type="text/css">
+
+  <style>
+    
+    body { background-color: #FEFDFB; margin: 0; padding: 0; }
+
+    p.callout { color: rgb(231, 69, 0); font-weight: bold; text-align: center;}
+
+    .style1 { background-color: #ffda7b; }
+    .style2A { font-size: 1.5vw; }
+    .style2B { font-size: 1vw; }
+    .style2C { font-size: 1.25vw; }
+    .style3 .col { aspect-ratio: 1; overflow: hidden;}
+    .style3A img, .style3C img { width: 100%; }
+    .style3B { background-image: url(images/square_logo.png); background-size: 100% 100%;}
+
+    @media only screen and (max-width: 992px) {
+      .style1 { background-color: #acd171; }
+    }
+
+    @media only screen and (max-width: 575px) {
+      .style1 { background-color: #889ac7; }
+    }
+
+  </style>
+
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="col l12 m12 style1">
+      <p class="callout">
+        This is an example for creating responsive columns 
+        using a basic Responsive Web Design framework.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin quis aliquam nisl, pharetra tincidunt enim. 
+        Suspendisse ut ultricies turpis. Phasellus luctus neque nec 
+        enim viverra, ac iaculis elit suscipit. Maecenas urna arcu, 
+        interdum id convallis vel, condimentum ullamcorper mauris. 
+        Duis non sem ut sem interdum congue. Nullam et purus ipsum. 
+        Duis et sodales orci. Cras nec felis eu magna viverra porttitor. 
+        Etiam venenatis tincidunt sem, quis bibendum 
+        sapien rhoncus efficitur. Interdum et malesuada fames ac ante 
+        ipsum primis in faucibus. 
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col l4 m4 style2A">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin quis aliquam nisl, pharetra tincidunt enim. 
+        Suspendisse ut ultricies turpis. Phasellus luctus neque nec 
+        enim viverra, ac iaculis elit suscipit. Maecenas urna arcu, 
+        interdum id convallis vel, condimentum ullamcorper mauris. 
+        Duis non sem ut sem interdum congue. Nullam et purus ipsum. 
+        Duis et sodales orci. Cras nec felis eu magna viverra porttitor. 
+        Etiam venenatis tincidunt sem, quis bibendum 
+        sapien rhoncus efficitur. Interdum et malesuada fames ac ante 
+        ipsum primis in faucibus. 
+      </p>
+    </div>
+    <div class="col l4 m4 style2B">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin quis aliquam nisl, pharetra tincidunt enim. 
+        Suspendisse ut ultricies turpis. Phasellus luctus neque nec 
+        enim viverra, ac iaculis elit suscipit. Maecenas urna arcu, 
+        interdum id convallis vel, condimentum ullamcorper mauris. 
+        Duis non sem ut sem interdum congue. Nullam et purus ipsum. 
+        Duis et sodales orci. Cras nec felis eu magna viverra porttitor. 
+        Etiam venenatis tincidunt sem, quis bibendum 
+        sapien rhoncus efficitur. Interdum et malesuada fames ac ante 
+        ipsum primis in faucibus. 
+      </p>
+    </div>
+    <div class="col l4 m4 style2C">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin quis aliquam nisl, pharetra tincidunt enim. 
+        Suspendisse ut ultricies turpis. Phasellus luctus neque nec 
+        enim viverra, ac iaculis elit suscipit. Maecenas urna arcu, 
+        interdum id convallis vel, condimentum ullamcorper mauris. 
+        Duis non sem ut sem interdum congue. Nullam et purus ipsum. 
+        Duis et sodales orci. Cras nec felis eu magna viverra porttitor. 
+        Etiam venenatis tincidunt sem, quis bibendum 
+        sapien rhoncus efficitur. Interdum et malesuada fames ac ante 
+        ipsum primis in faucibus. 
+      </p>
+    </div>
+  </div>
+
+  <div class="row style3">
+    <div class="col l3 m6 style3A">
+      <img src="images/tosya.jpg" alt="image of a cute rat">
+    </div>
+    <div class="col l3 m6 style3B">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin quis aliquam nisl, pharetra tincidunt enim. 
+        Suspendisse ut ultricies turpis. Phasellus luctus neque nec 
+        enim viverra, ac iaculis elit suscipit. Maecenas urna arcu, 
+        interdum id convallis vel, condimentum ullamcorper mauris. 
+        Duis non sem ut sem interdum congue. Nullam et purus ipsum. 
+        Duis et sodales orci. Cras nec felis eu magna viverra porttitor. 
+        Etiam venenatis tincidunt sem, quis bibendum 
+        sapien rhoncus efficitur. Interdum et malesuada fames ac ante 
+        ipsum primis in faucibus. 
+      </p>
+    </div>
+    <div class="col l3 m6 style3C">
+      <picture>
+        <source media="(min-width: 576px)" srcset="images/flower_tile_flipflip.png">
+        <source media="(max-width: 575px)" srcset="images/doodle_tile.png">
+        <img src="images/flower_tile_flipflip.png">
+      </picture> 
+    </div>
+    <div class="col l3 m6">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin quis aliquam nisl, pharetra tincidunt enim. 
+        Suspendisse ut ultricies turpis. Phasellus luctus neque nec 
+        enim viverra, ac iaculis elit suscipit. Maecenas urna arcu, 
+        interdum id convallis vel, condimentum ullamcorper mauris. 
+        Duis non sem ut sem interdum congue. Nullam et purus ipsum. 
+        Duis et sodales orci. Cras nec felis eu magna viverra porttitor. 
+        Etiam venenatis tincidunt sem, quis bibendum 
+        sapien rhoncus efficitur. Interdum et malesuada fames ac ante 
+        ipsum primis in faucibus. 
+      </p>
+    </div>
+  </div>
+
+
+</body>
+</html>

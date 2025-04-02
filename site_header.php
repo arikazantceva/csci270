@@ -53,6 +53,8 @@
                 <li><a href="worksheet_blocks.php">Box Model</a></li>
                 <li><a href="worksheet_lists.php">Lists</a></li>
                 <li><a href="worksheet_bg_images.php">CSS Images</a></li>
+                <li><a href="worksheet_positioning.php">Positioning</a></li>
+                <li><a href="worksheet_responsive_columns.html">Responsive Web Design</a></li>
                 <div class="clear_float"></div>
             </ul>
         </div>

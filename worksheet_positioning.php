@@ -1,8 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Positioning Exercise</title>
+<? 
+    // These have to be defined BEFORE the header file is required.
+    $page_title = 'Positioning Exercise | Worksheet';
+    // $extra_stylesheets[] = 'extra_styles1.css';
+?>
+<? require 'site_header.php'; ?>
+
+
+
+<div class="content">
 
   <style type="text/css">
 
@@ -222,9 +227,6 @@
     }
   </style>
 
-</head>
-
-<body>
   <div id="worksheet_page_wrapper">
 
     <fieldset>
@@ -427,7 +429,8 @@
 
 
   </div>
+  </div>
 
-</body>
 
-</html>
+
+<? require 'site_footer.php'; ?>
